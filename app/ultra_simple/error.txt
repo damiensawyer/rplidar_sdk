@@ -1,0 +1,7 @@
+/usr/bin/ld: /home/damien/code/lidar/rplidar_sdk/obj/Linux/Release/ultra_simple/main.o: in function `main':
+main.cpp:(.text.startup+0xc4): undefined reference to `sl::createLidarDriver()'
+/usr/bin/ld: main.cpp:(.text.startup+0xee): undefined reference to `sl::createSerialPortChannel(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)'
+/usr/bin/ld: main.cpp:(.text.startup+0x1ae): undefined reference to `sl::createLidarDriver()'
+/usr/bin/ld: main.cpp:(.text.startup+0x1d8): undefined reference to `sl::createUdpChannel(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)'
+collect2: error: ld returned 1 exit status
+make: *** [/home/damien/code/lidar/rplidar_sdk/mak_common.inc:74: /home/damien/code/lidar/rplidar_sdk/output/Linux/Release/ultra_simple] Error 1
