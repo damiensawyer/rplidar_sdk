@@ -5,3 +5,5 @@ I got this error https://community.silabs.com/s/question/0D58Y00008u8b0SSAQ/cp21
 
 
 after running make in the driver folder, I ran ```sudo modprobe cp210x``` not sure if it did anything... but didn't fail!!
+
+see [this](https://www.slamtec.com/en/Support)
